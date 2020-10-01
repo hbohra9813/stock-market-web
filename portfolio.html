@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <style>
+         table {
+         border-collapse: collapse;
+         border: 2px black solid;
+         font: 12px sans-serif;
+         }
+         td {
+         border: 1px black solid;
+         padding: 5px;
+         }
+      </style>
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Intensely : Portfolio</title>
+    <!-- Favicon -->
+    <link rel="shortcut icon" type="image/icon" href="assets/images/logo.png"/>
+    <!-- Font Awesome -->
+    <link href="assets/css/font-awesome.css" rel="stylesheet">
+    <!-- Bootstrap -->
+    <link href="assets/css/bootstrap.css" rel="stylesheet">    
+    <!-- Slick slider -->
+    <link rel="stylesheet" type="text/css" href="assets/css/slick.css"/> 
+    <!-- Fancybox slider -->
+    <link rel="stylesheet" href="assets/css/jquery.fancybox.css" type="text/css" media="screen" /> 
+    <!-- Animate css -->
+    <link rel="stylesheet" type="text/css" href="assets/css/animate.css"/>  
+    <!-- Bootstrap progressbar  -->
+    <link rel="stylesheet" type="text/css" href="assets/css/bootstrap-progressbar-3.3.4.css"/> 
+     <!-- Theme color -->
+    <link id="switcher" href="assets/css/theme-color/default-theme.css" rel="stylesheet">
+
+    <!-- Main Style -->
+    <link href="style.css" rel="stylesheet">
+
+    <!-- Fonts -->
+    <!-- Open Sans for body font -->
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <!-- Lato for Title -->
+    <link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'> 
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+
+  <!-- BEGAIN PRELOADER -->
+  <div id="preloader">
+    <div id="status">&nbsp;</div>
+  </div>
+  <!-- END PRELOADER -->
+
+  <!-- SCROLL TOP BUTTON -->
+  <a class="scrollToTop" href="#"><i class="fa fa-angle-up"></i></a>
+  <!-- END SCROLL TOP BUTTON -->
+
+  <!-- Start header -->
+  <header id="header">
+    <!-- header top search -->
+    <div class="header-top">
+      <div class="container">
+        <form action="">
+          <div id="search">
+          <input type="text" placeholder="Type your search keyword here and hit Enter..." name="s" id="m_search" style="display: inline-block;">
+          <button type="submit">
+            <i class="fa fa-search"></i>
+          </button>
+        </div>
+        </form>
+      </div>
+    </div>
+    <!-- header bottom -->
+    <div class="header-bottom">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8 col-sm-6 col-xs-6">
+            <div class="header-contact">
+              <ul>
+                <li>
+                  <div class="phone">
+                    <!-- <i class="fa fa-phone"></i> -->
+                    <!-- +1(800) 699-7071 -->
+                    <!-- Welcome to Investors Hu basd asdasdabsldk jahdfhasd b;ESd ;vvn UVHiu dhSE Df;oi jjsdoN;u ods:VJ:SD B:SEB DVj:J bv;D dhbgzv zvvbvz bvzb -->
+
+
+                   <i><b>The market can price things wrong  &nbsp;& &nbsp;High returns with low risks is the key &nbsp; --Warren Buffet</b> </i>
+
+                  </div>
+                </li>
+                
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-6 col-xs-6">
+            <div class="header-login">
+              <a class="login modal-form" data-target="#login-form" data-toggle="modal" href="#">Login / Sign Up</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <!-- End header -->
+
+  <!-- Start login modal window -->
+  <div aria-hidden="false" role="dialog" tabindex="-1" id="login-form" class="modal leread-modal fade in">
+    <div class="modal-dialog">
+      <!-- Start login section -->
+      <div id="login-content" class="modal-content">
+        <div class="modal-header">
+          <button aria-label="Close" data-dismiss="modal" class="close" type="button"><span aria-hidden="true">×</span></button>
+          <h4 class="modal-title"><i class="fa fa-unlock-alt"></i>Login</h4>
+        </div>
+        <div class="modal-body">
+          <form>
+            <div class="form-group">
+              <input type="text" placeholder="User name" class="form-control">
+            </div>
+            <div class="form-group">
+              <input type="password" placeholder="Password" class="form-control">
+            </div>
+             <div class="loginbox">
+              <label><input type="checkbox"><span>Remember me</span></label>
+              <button class="btn signin-btn" type="button">SIGN IN</button>
+            </div>                    
+          </form>
+        </div>
+        <div class="modal-footer footer-box">
+          <a href="#">Forgot password ?</a>
+          <span>No account ? <a id="signup-btn" href="#">Sign Up.</a></span>            
+        </div>
+      </div>
+      <!-- Start signup section -->
+      <div id="signup-content" class="modal-content">
+        <div class="modal-header">
+          <button aria-label="Close" data-dismiss="modal" class="close" type="button"><span aria-hidden="true">×</span></button>
+          <h4 class="modal-title"><i class="fa fa-lock"></i>Sign Up</h4>
+        </div>
+        <div class="modal-body">
+          <form>
+            <div class="form-group">
+              <input placeholder="Name" class="form-control">
+            </div>
+            <div class="form-group">
+              <input placeholder="Username" class="form-control">
+            </div>
+            <div class="form-group">
+              <input placeholder="Email" class="form-control">
+            </div>
+            <div class="form-group">
+              <input type="password" placeholder="Password" class="form-control">
+            </div>
+            <div class="signupbox">
+              <span>Already got account? <a id="login-btn" href="#">Sign In.</a></span>
+            </div>
+            <div class="loginbox">
+              <label><input type="checkbox"><span>Remember me</span><i class="fa"></i></label>
+              <button class="btn signin-btn" type="button">SIGN UP</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- End login modal window -->
+
+  <!-- BEGIN MENU -->
+  <section id="menu-area">      
+    <nav class="navbar navbar-default" role="navigation">  
+      <div class="container">
+        <div class="navbar-header">
+          <!-- FOR MOBILE VIEW COLLAPSED BUTTON -->
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <!-- LOGO -->              
+          <!-- TEXT BASED LOGO -->
+          <a class="navbar-brand" href="index.html">Investors Hub</a>              
+          <!-- IMG BASED LOGO  -->
+           <!-- <a class="navbar-brand" href="index.html"><img src="assets/images/logo.png" alt="logo"></a> -->
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul id="top-menu" class="nav navbar-nav navbar-right main-nav">
+            <li class="active"><a href="index.html">Home</a></li>
+            
+
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Market <span class="fa fa-angle-down"></span></a>
+              <ul class="dropdown-menu" role="menu">
+                <li><a href="NSE.html">NSE</a></li>                
+                <li><a href="BSE.html">BSE</a></li>
+                <li><a href="COMMODITIES.html">Comodities</a></li>           
+                <li><a href="GLOBAL INDICES.html">Global Indices</a></li>
+                
+              </ul>
+            </li>
+
+
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Services<span class="fa fa-angle-down"></span></a>
+              <ul class="dropdown-menu" role="menu">
+                <li><a href="stock_adv.html">Stock Advisory</a></li>
+                <li><a href="portfolio.html">Portfolio Management</a></li>
+                <li><a href="equ_tra_ass.html">Equity Trading Assitance</a></li>
+                <li><a href="ipo_ofs.html">IPO / OFS</a></li>
+                
+              </ul>
+            </li>
+
+            <!-- <li><a href="portfolio.html">Portfolio</a></li> -->
+            
+            <li><a href="contact.html">Contact</a></li>
+          </ul>                     
+        </div><!--/.nav-collapse -->
+        <a href="#" id="search-icon">
+          <i class="fa fa-search">            
+          </i>
+        </a>
+      </div>     
+    </nav>
+  </section>
+  <!-- END MENU --> 
+  
+  <!-- Start single page header -->
+  <section id="single-page-header">
+    <div class="overlay">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 col-sm-6 col-xs-12">
+            <div class="single-page-header-left">
+              <h2>Portfolio</h2>
+            </div>
+          </div>
+          <div class="col-md-6 col-sm-6 col-xs-12">
+            <div class="single-page-header-right">
+              <ol class="breadcrumb">
+                <li><a href="index.html">Home</a></li>
+                <li class="active">Portfolio</li>
+              </ol>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End single page header -->
+  
+  <!-- Start portfolio -->
+  <section id="portfolio">
+    <div class="portfolio-area">
+        <!-- portfolio menu -->
+       <div class="portfolio-menu">
+         <ul>
+           <li class="filter" data-filter="all">All</li>
+           <li class="filter" data-filter=".branding">ENERGY</li>
+           <li class="filter" data-filter=".design">BANK</li>
+           <li class="filter" data-filter=".development">IT</li>
+           <li class="filter" data-filter=".photography">PHARMA</li>
+           <li class="filter" data-filter=".photography">COMMODITIES</li>
+         </ul>
+       </div>      
+       <!-- Portfolio container -->
+       <!-- <table>
+        <tr align="center">
+         <th>&nbsp;&nbsp;&nbsp;&nbsp;S.No.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</th> 
+         <th>STOCK NAME&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</th>
+         <th>No. OF SHARES&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</th>
+         <th>BUY PRICE&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</th>
+         <th>CURRENT PRICE&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</th>
+         <th>TOTAL INVESTEMENT&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</th>
+         <th>CURRENT VALUATION&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</th>
+         <th>PROFIT/LOSS</th>
+       </tr>
+       <tr align="center">
+         <td>
+           1
+         </td>
+         <td>
+           TCS
+         </td>
+         <td>
+           10
+         </td>
+         <td>
+           2000
+         </td>
+         <td>
+           1800
+         </td>
+         <td>
+           20000
+         </td>
+         <td>
+           18000
+         </td>
+         <td>-2000</td>
+       </tr>
+
+       </table> -->
+<div id='container'></div>
+      <script type="text/javascript"charset="utf-8">
+                var data = 'Current_Value,Bank_Name,Market_Value,Percentage_change,Change_Today\n624.75,Axis Bank,160533.52,1.97,12.05\n112.80,Bank of Baroda,29841.42,0.04,0.05\n78.20,Federal Bank,15496.63,-0.38,-0.30\n1975.70,HDFC Bank,536949.75,0.92,17.95\n368.95,ICICI Bank,237492.75,0.64,2.35\n36.60,IDFC Bank,12460.15,2.52,0.9\n1513.90,IndusInd Bank,91100.85,0.02,0.35\n1160.75,Kotak Mahindra,221369.02,2.73,30.85\n71.20,PNB,21883.79,0.64,0.45\n552.05,RBL Bank,23479.22,0.61,3.35\n285.30,SBI,254618.48,0.60,1.70\n205.95,Yes Bank,47598.32,-7.40,-16.45\n779.50,45671.50,Aurobindo Pharm,-3.60,-0.46\n359.40,36793.31,Cadila Health,-11.80,-3.18\n519.00,41792.59,Cipla,-0.55,-0.11\n1531.35,40652.53,Divis Labs,27.50,1.83\n2459.85,40844.79,Dr Reddys Labs,10.60,0.43\n1343.90,22766.48,GlaxoSmithKline,-22.15,-1.62\n666.20,18798.04,Glenmark,11.10,1.69\n854.55,38645.71,Lupin,14.30,1.70\n2289.00,41816.47,Piramal Enter,0.05,0.00\n515.10,123589.21,Sun Pharma,-5.00,-0.96\n989.55,137796.98,HCL Tech,-7.55,-0.76\n52.60,3489.44,Infibeam Avenue,-0.70,-1.31\n656.15,286631.45,Infosys,2.95,0.45\n212.60,4198.82,KPIT Tech,2.40,1.14\n841.75,13820.64,Mindtree,-5.00,-0.59\n3476.20,29799.99,Oracle Fin Serv,26.45,0.77\n996.30,6204.60,Tata Elxsi,2.35,0.24\n1872.00,702446.42,TCS,-8.65,-0.46\n715.50,70190.88,Tech Mahindra,15.25,2.18\n322.75,146015.67,Wipro,-1.80,-0.55\n321.25,69687.24,BPCL,5.30,1.68\n347.95,78465.19,GAIL,-4.60,-1.30\n249.00,37943.18,HPCL,5.30,2.17\n146.70,142472.25,IOC,1.30,0.89\n153.65,126691.56,NTPC,-3.70,-2.35\n158.85,203855.94,ONGC,-2.15,-1.34\n187.15,97909.20,Power Grid Corp,1.20,0.65\n1096.35,694924.04,Reliance,-1.60,-0.15\n351.65,9248.04,Reliance Infra,0.95,0.27\n76.70,20745.61,Tata Power,-1.25,-1.60';
+         var lines = data.split("\n"),
+         output = [],
+         i;
+         for (i = 0; i < lines.length; i++)
+         output.push("<tr><td>"
+         + lines[i].slice(0,-1).split(",").join("</td><td>")
+         + "</td></tr>");
+         output = "<br><br><br><br><table align='center'>" + output.join("") + "</table>";
+         var div = document.getElementById('container');
+         
+         div.innerHTML = output;
+
+</script>
+
+<!-- <div id='containers'></div>
+      <script type="text/javascript"charset="utf-8">
+                var data = 'Current_Value,Market_Value,Company_name,Change_Today,Percentage_change\n779.50,45671.50,Aurobindo Pharm,-3.60,-0.46\n359.40,36793.31,Cadila Health,-11.80,-3.18\n519.00,41792.59,Cipla,-0.55,-0.11\n1531.35,40652.53,Divis Labs,27.50,1.83\n2459.85,40844.79,Dr Reddys Labs,10.60,0.43\n1343.90,22766.48,GlaxoSmithKline,-22.15,-1.62\n666.20,18798.04,Glenmark,11.10,1.69\n854.55,38645.71,Lupin,14.30,1.70\n2289.00,41816.47,Piramal Enter,0.05,0.00\n515.10,123589.21,Sun Pharma,-5.00,-0.96';
+         var lines = data.split("\n"),
+         output = [],
+         i;
+         for (i = 0; i < lines.length; i++)
+         output.push("<tr><td>"
+         + lines[i].slice(0,-1).split(",").join("</td><td>")
+         + "</td></tr>");
+         output = "<br><br><br><br><table align='center'>" + output.join("") + "</table>";
+         var div = document.getElementById('containers');
+         
+         div.innerHTML = output;
+
+</script>
+ -->
+
+       </div>        
+    </div>
+  </section>
+  <!-- End portfolio -->
+  
+  <!-- Start subscribe us -->
+  <section id="subscribe">
+    <div class="subscribe-overlay">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="subscribe-area">
+              <h2 class="wow fadeInUp">Subscribe Newsletter</h2>
+              <form action="" class="subscrib-form wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="0.5s">
+                <input type="text" placeholder="Enter Your E-mail..">
+                <button class="subscribe-btn" type="submit">Submit</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End subscribe us -->
+
+  <!-- Start footer -->
+  <footer id="footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 col-sm-6">
+          <div class="footer-left">
+            <p>Designed by Investors Hub</p>
+          </div>
+        </div>
+        <div class="col-md-6 col-sm-6">
+          <div class="footer-right">
+            <a href="index.html"><i class="fa fa-facebook"></i></a>
+            <a href="#"><i class="fa fa-twitter"></i></a>
+            <a href="#"><i class="fa fa-google-plus"></i></a>
+            <a href="#"><i class="fa fa-linkedin"></i></a>
+            <a href="#"><i class="fa fa-pinterest"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- End footer -->
+
+  <!-- jQuery library -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>    
+  <!-- Include all compiled plugins (below), or include individual files as needed -->
+  <!-- Bootstrap -->
+  <script src="assets/js/bootstrap.js"></script>
+  <!-- Slick Slider -->
+  <script type="text/javascript" src="assets/js/slick.js"></script>    
+  <!-- mixit slider -->
+  <script type="text/javascript" src="assets/js/jquery.mixitup.js"></script>
+  <!-- Add fancyBox -->        
+  <script type="text/javascript" src="assets/js/jquery.fancybox.pack.js"></script>
+ <!-- counter -->
+  <script src="assets/js/waypoints.js"></script>
+  <script src="assets/js/jquery.counterup.js"></script>
+  <!-- Wow animation -->
+  <script type="text/javascript" src="assets/js/wow.js"></script> 
+  <!-- progress bar   -->
+  <script type="text/javascript" src="assets/js/bootstrap-progressbar.js"></script>  
+  
+ 
+  <!-- Custom js -->
+  <script type="text/javascript" src="assets/js/custom.js"></script>
+    
+  </body>
+</html>
